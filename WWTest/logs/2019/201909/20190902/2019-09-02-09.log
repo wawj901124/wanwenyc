@@ -1,0 +1,21 @@
+Time:2019-09-02 09:59:08,060; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[1;31;0m 
+Time:2019-09-02 09:59:08,075; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-02 09:59:08,075; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-02 09:59:08.075642 
+Time:2019-09-02 09:59:08,075; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190902095908 
+Time:2019-09-02 09:59:08,075; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-02 09:59:08.075642 
+Time:2019-09-02 09:59:08,075; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-02 09:59:08,075; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\PycharmProjects\wanwenyc/media 
+Time:2019-09-02 09:59:08,091; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\PycharmProjects\wanwenyc/media/report 
+Time:2019-09-02 09:59:08,106; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\PycharmProjects\wanwenyc/media/report/201909 
+Time:2019-09-02 09:59:08,106; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\PycharmProjects\wanwenyc/media/report/201909/screenshots 
+Time:2019-09-02 09:59:08,106; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\PycharmProjects\wanwenyc/media/report/201909/screenshots/ 
+Time:2019-09-02 09:59:08,106; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[0m 
+Time:2019-09-02 09:59:08,231; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:***** 
+Time:2019-09-02 09:59:08,231; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:media\report\201909\screenshots\screenpicture_20190902095908.png 
+Time:2019-09-02 09:59:08,231; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:***** 
+Time:2019-09-02 09:59:08,231; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:打开网页失败,关闭驱动.问题描述：[Message: Reached error page: about:neterror?e=netTimeout&u=https%3A//bjw.halodigit.com%3A9060/nereus/manager/index%23/login&c=UTF-8&f=regular&d=bjw.halodigit.com%20%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%93%8D%E5%BA%94%E6%97%B6%E9%97%B4%E8%BF%87%E9%95%BF%E3%80%82
+] 
+Time:2019-09-02 09:59:13,683; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:问题描述：HTTPConnectionPool(host='127.0.0.1', port=51598): Max retries exceeded with url: /session/1e68b283-928d-4451-9f8f-ae2c30da7c92/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000234A249E4A8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)) 
+Time:2019-09-02 09:59:13,683; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-02 09:59:13,683; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-02 09:59:13.683884 
+Time:2019-09-02 09:59:13,683; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190902095913 

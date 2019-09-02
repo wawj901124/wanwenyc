@@ -1,0 +1,68 @@
+Time:2019-09-02 10:02:08,247; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/user/newlogin 
+Time:2019-09-02 10:02:08,259; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:问题描述：Message: Unable to locate element: /html/body/div[1]/div[2]/form/div/div[1]/input
+ 
+Time:2019-09-02 10:02:08,262; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-02 10:02:08,263; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-02 10:02:08.263051 
+Time:2019-09-02 10:02:08,266; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190902100208 
+Time:2019-09-02 10:02:13,357; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-02 10:02:13,372; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[1;31;0m 
+Time:2019-09-02 10:02:13,388; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-02 10:02:13,388; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-02 10:02:13.388615 
+Time:2019-09-02 10:02:13,388; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190902100213 
+Time:2019-09-02 10:02:13,388; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-02 10:02:13.388615 
+Time:2019-09-02 10:02:13,388; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-02 10:02:13,388; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\PycharmProjects\wanwenyc/media 
+Time:2019-09-02 10:02:13,388; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\PycharmProjects\wanwenyc/media/report 
+Time:2019-09-02 10:02:13,388; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\PycharmProjects\wanwenyc/media/report/201909 
+Time:2019-09-02 10:02:13,388; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\PycharmProjects\wanwenyc/media/report/201909/screenshots 
+Time:2019-09-02 10:02:13,404; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\PycharmProjects\wanwenyc/media/report/201909/screenshots/ 
+Time:2019-09-02 10:02:13,404; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[0m 
+Time:2019-09-02 10:02:13,497; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:***** 
+Time:2019-09-02 10:02:13,497; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:media\report\201909\screenshots\screenpicture_20190902100213.png 
+Time:2019-09-02 10:02:13,497; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:***** 
+Time:2019-09-02 10:02:13,497; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:停顿5秒后再次查找依然未找到元素.问题描述：Message: Unable to locate element: /html/body/div[1]/div[2]/form/div/div[1]/input
+ 
+Time:2019-09-02 10:02:13,497; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[0m 
+Time:2019-09-02 10:04:53,568; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/user/newlogin 
+Time:2019-09-02 10:04:53,583; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[2]/div/div/div[2]/div/form/div[1]/input】的元素 
+Time:2019-09-02 10:04:53,693; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[2]/div/div/div[2]/div/form/div[2]/input】的元素 
+Time:2019-09-02 10:04:53,771; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[2]/div/div/div[2]/div/form/div[5]/input】的元素 
+Time:2019-09-02 10:04:54,038; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[2]/div/div/div[2]/div/form/div[5]/input 
+Time:2019-09-02 10:04:57,045; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-02 10:05:00,049; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-02 10:05:50,415; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/user/newlogin 
+Time:2019-09-02 10:05:50,427; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[2]/div/div/div[2]/div/form/div[1]/input】的元素 
+Time:2019-09-02 10:05:50,528; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[2]/div/div/div[2]/div/form/div[2]/input】的元素 
+Time:2019-09-02 10:05:50,591; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[2]/div/div/div[2]/div/form/div[5]/input】的元素 
+Time:2019-09-02 10:05:50,856; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[2]/div/div/div[2]/div/form/div[5]/input 
+Time:2019-09-02 10:05:53,857; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-02 10:05:56,861; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-02 10:07:18,768; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/user/newlogin 
+Time:2019-09-02 10:07:18,768; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[2]/div/div/div[2]/div/form/div[1]/input】的元素 
+Time:2019-09-02 10:07:18,877; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[2]/div/div/div[2]/div/form/div[2]/input】的元素 
+Time:2019-09-02 10:07:18,940; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[2]/div/div/div[2]/div/form/div[5]/input】的元素 
+Time:2019-09-02 10:07:30,007; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[2]/div/div/div[2]/div/form/div[5]/input 
+Time:2019-09-02 10:07:33,013; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-02 10:07:36,028; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-02 10:24:50,756; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/user/newlogin 
+Time:2019-09-02 10:24:50,788; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:问题描述：Message: Unable to locate element: /html/body/div[2]/div/div/div[2]/div/form/div[1]/inputw
+ 
+Time:2019-09-02 10:24:50,788; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-02 10:24:50,788; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-02 10:24:50.788130 
+Time:2019-09-02 10:24:50,788; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190902102450 
+Time:2019-09-02 10:24:55,890; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-02 10:24:55,890; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:调用截取图片函数 
+Time:2019-09-02 10:24:55,890; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-02 10:24:55.890922 
+Time:2019-09-02 10:24:55,890; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190902102455 
+Time:2019-09-02 10:24:55,906; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-02 10:24:55.890922 
+Time:2019-09-02 10:24:55,906; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-02 10:24:55,906; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\PycharmProjects\wanwenyc/media 
+Time:2019-09-02 10:24:55,906; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\PycharmProjects\wanwenyc/media/report 
+Time:2019-09-02 10:24:55,906; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\PycharmProjects\wanwenyc/media/report/201909 
+Time:2019-09-02 10:24:55,906; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\PycharmProjects\wanwenyc/media/report/201909/screenshots 
+Time:2019-09-02 10:24:55,906; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\PycharmProjects\wanwenyc/media/report/201909/screenshots/ 
+Time:2019-09-02 10:24:56,000; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-09-02 10:24:56,000; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:media\report\201909\screenshots\screenpicture_20190902102455.png 
+Time:2019-09-02 10:24:56,000; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-09-02 10:24:56,000; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:停顿5秒后再次查找依然未找到元素.问题描述：Message: Unable to locate element: /html/body/div[2]/div/div/div[2]/div/form/div[1]/inputw
+ 

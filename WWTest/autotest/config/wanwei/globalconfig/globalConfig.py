@@ -1,0 +1,9 @@
+class GlobalConfig(object):
+    ISONLINE = True
+    ONLIINE_WEB_INDEX_URL = ""
+    ONLINE_LOGIN_ACCOUNT = ""
+    ONLINE_LOGIN_PASSWORD = ""
+
+    TEST_WEB_INDEX_URL = ""
+    TEST_LOGIN_ACCOUNT = ""
+    TEST_LOGIN_PASSWORD = ""

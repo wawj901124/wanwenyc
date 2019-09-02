@@ -1,0 +1,10 @@
+Time:2019-09-02 16:50:45,803; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-02 16:50:45.803105 
+Time:2019-09-02 16:50:45,803; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190902165045 
+Time:2019-09-02 16:50:59,311; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-02 16:50:59,483; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-02 16:50:59,499; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-02 16:50:59,514; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-02 16:50:59.514694 
+Time:2019-09-02 16:50:59,514; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190902165059 
+Time:2019-09-02 16:50:59,733; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-02 16:50:59.733426 
+Time:2019-09-02 16:50:59,733; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190902165059 
+Time:2019-09-02 16:50:59,733; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：D:\PycharmProjects\wanwenyc\WWTest/imagefile/ele/00001_20190902165059_ele.png 

@@ -1,0 +1,4 @@
+Time:2019-09-01 17:22:18,619; FileName:mylogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:mylogtest 
+Time:2019-09-01 17:22:18,635; FileName:mylogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:mylogtest 
+Time:2019-09-01 17:35:08,621; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:将[1]写入文件[1.txt] 
+Time:2019-09-01 17:35:08,621; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:将文件[1.txt]中第一行内容【1】返回 
