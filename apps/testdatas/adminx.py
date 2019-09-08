@@ -15,7 +15,8 @@ class ClickAndBackXAdmin(object):
                    "current_page_click_ele_find","current_page_click_ele_find_value",
                     "is_new",
                    "next_page_check_ele_find","next_page_check_ele_find_value",
-                   "case_counts","depend_case"]   #定义显示的字段
+                   "case_counts","depend_case",
+                     "go_to"]   #定义显示的字段
     list_filter =  ["test_project","test_module","test_page",
                    "test_case_title","is_run_case","is_new",
                     "write_user"] #定义筛选的字段

@@ -1,0 +1,149 @@
+{% extends 'clickAndBack.html' %}
+{% block title %}
+    clickandbackform
+{% endblock %}
+{% block action_url %}
+    {% url 'clickandback:click_and_back_id' clickandback.id %}
+{% endblock %}
+{% block box_h1_title %}
+    添加数据出错页
+{% endblock %}
+{% block table_data %}
+    <table cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <label>测试项目:</label>
+            </td>
+            <td>
+                <input id="test_project" name="test_project" type="text" value="{{ clickandbackform.test_project.value }}"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>测试模块:</label>
+            </td>
+            <td>
+                <input id="test_module" name="test_module" type="text" value="{{ clickandbackform.test_module.value }}"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>测试页面:</label>
+            </td>
+            <td>
+                <input id="test_page" name="test_page" type="text" value="{{ clickandbackform.test_page.value }}"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>测试内容的名称:</label>
+            </td>
+            <td>
+                <input id="test_case_title" name="test_case_title" type="text"
+                       value="{{ clickandbackform.test_case_title.value }}"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>是否运行:</label>
+            </td>
+            <td>
+                <input type="radio" id="is_run_case" name="is_run_case"  value=1 {% if clickandbackform.is_run_case.value == 1 %} checked="checked"{% endif %}>运行
+                <input type="radio" id="is_run_case" name="is_run_case"  value=0 {% if clickandbackform.is_run_case.value == 0 %} checked="checked"{% endif %}>不运行
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>当前页面要点击元素查找风格:</label>
+            </td>
+            <td>
+                <input id="current_page_click_ele_find" name="current_page_click_ele_find"
+                       type="text" value="{{ clickandbackform.current_page_click_ele_find.value }}"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>当前页面要点击元素查找风格的确切值:</label>
+            </td>
+            <td>
+                <input id="current_page_click_ele_find_value" name="current_page_click_ele_find_value"
+                       type="text" value="{{ clickandbackform.current_page_click_ele_find_value.value }}"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>是否新窗口:</label>
+            </td>
+            <td>
+                <input type="radio" id="is_new" name="is_new"  value=1 {% if clickandbackform.is_new.value == 1 %} checked="checked"{% endif %}>新窗口
+                <input type="radio" id="is_new" name="is_new"  value=0 {% if clickandbackform.is_new.value  == 0 %} checked="checked"{% endif %}>非新窗口
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>下一页面标识元素查找风格:</label>
+            </td>
+            <td>
+                <input id="next_page_check_ele_find" name="next_page_check_ele_find"
+                       type="text" value="{{ clickandbackform.next_page_check_ele_find.value }}"/>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <label>下一页面要点击元素查找风格的确切值:</label>
+            </td>
+            <td>
+                <input id="next_page_check_ele_find_value" name="next_page_check_ele_find_value"
+                       type="text" value="{{ clickandbackform.next_page_check_ele_find_value.value }}"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>用例循环次数:</label>
+            </td>
+            <td>
+                <input id="case_counts" name="case_counts" type="text" value="{{ clickandbackform.case_counts.value }}"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>依赖的前置用例:</label>
+            </td>
+            <td>
+                <select id="depend_case" name="depend_case">
+                    <option value=""
+                            {% if clickandbackform.depend_case_id == None %}
+                                selected="selected"
+                            {% endif %}>
+                            ---请选择
+                    </option>
+                    {%for cab in clickandback_all%}
+                        <option
+                                value={{forloop.counter}}
+                                        {% if cab.id == clickandbackform.depend_case_id%}
+                                            selected="selected"
+                                        {% endif %}>
+                            [{{ cab.test_project }}]-[{{ cab.test_module }}]-[{{ cab.test_page }}]_{{cab.test_case_title }}
+                        </option>
+                    {%endfor%}
+
+                </select>
+
+            </td>
+
+        </tr>
+
+    </table>
+{% endblock %}

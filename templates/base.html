@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+{% load staticfiles %}
+<head>
+    {% block head %}
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>
+            {% block title %}
+                base
+            {% endblock %}
+        </title>
+        <link rel="stylesheet" href="/static/css/style.css">
+    {% endblock %}
+</head>
+<body>
+    {% block body %}
+        {% block form %}
+            <form action="{% block action_url %}{% url 'clickandback:click_and_back_id' clickandback.id %}{% endblock %}"
+                  method="post" class="smart-green">
+                <div id="box">
+                    <h1>
+                        {% block box_h1_title %}
+                            添加数据
+                        {% endblock %}
+                        <span>
+                                {% if errmsg  %}
+                                    <div class="error-msg">{{ errmsg }}</div>
+            {#                        <div class="error-msg">#}
+            {#                            {% for key,err in testcaseform.errors.items %}#}
+            {#                                {{ key}}{{ err }}#}
+            {#                            {% endfor %}#}
+            {#                        </div>#}
+                                {% else %}
+                                    <div class="success-msg">{{ sumsg }}</div>
+                                {% endif %}
+                        </span>
+                    </h1>
+                </div>
+                <div class="kongbai"></div>
+                <div class="tabledata">
+                    {% block table_data %}
+                        <table cellpadding="0" cellspacing="0">
+                        </table>
+                    {% endblock %}
+                <br/>
+
+                </div>
+                <div class="kongbai"></div>
+                <div class="box2">
+                    <div class="box2button">
+                        {% block box2_button %}
+                            <input type="submit" class="button"  value="新增加一条数据"/>
+                        {% endblock %}
+                    </div>
+                    <div class="box2a">
+                        {% block box2_a %}
+                            <a href='{{ django_server_yuming }}/yinics/testcase/'>返回数据列表页</a>
+                        {% endblock %}
+                    </div>
+                </div>
+                {% csrf_token %} <!--保证form表提交，是一种安全机制-->
+            </form>
+        {% endblock %}
+        {% block custom_js %}
+            <!--此处可以重写js-->
+        {% endblock %}
+    {% endblock %}
+</body>
+</html>

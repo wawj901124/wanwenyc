@@ -3,6 +3,8 @@ from datetime import datetime   #系统的包放在最上面
 from django.db import models   #第二个级别的就是第三方包
 from django.contrib.auth import  get_user_model  #导入get_user_model
 
+from wanwenyc.settings import DJANGO_SERVER_YUMING
+
 #第三个就是我们自己创建的包
 User = get_user_model()  #get_user_model() 函数直接返回User类，找的是settings.AUTH_USER_MODEL变量的值
 # Create your models here.
@@ -48,3 +50,10 @@ class ClickAndBack(models.Model):#继承django的Model模块
 
     def __str__(self):#重载函数
         return self.test_case_title
+
+    def go_to(self):   #定义点击后跳转到某一个地方（可以加html代码）
+        from django.utils.safestring import mark_safe   #调用mark_safe这个函数，django可以显示成一个文本，而不是html代码
+        return mark_safe("<a href='{}/clickandback/copy/{}/'>复制新加</a>".format(DJANGO_SERVER_YUMING,self.id))
+        # return  "<a href='http://192.168.212.194:9002/testcase/{}/'>跳转</a>".format(self.id)
+
+    go_to.short_description = u"复制新加"   #为go_to函数名个名字
