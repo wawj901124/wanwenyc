@@ -131,7 +131,7 @@
                     </option>
                     {%for cab in clickandback_all%}
                         <option
-                                value={{forloop.counter}}
+                                value={{cab.id}}
                                         {% if cab.id == clickandbackform.depend_case_id%}
                                             selected="selected"
                                         {% endif %}>
