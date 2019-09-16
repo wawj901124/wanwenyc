@@ -131,10 +131,11 @@
                     </option>
                     {%for cab in clickandback_all%}
                         <option
-                                value={{forloop.counter}}
+                                value={{cab.id}}
                                         {% if cab.id == clickandback.depend_case_id%}
                                             selected="selected"
                                         {% endif %}>
+{#                            {{cab.test_case_title }}#}
                             [{{ cab.test_project }}]-[{{ cab.test_module }}]-[{{ cab.test_page }}]_{{cab.test_case_title }}
                         </option>
                     {%endfor%}

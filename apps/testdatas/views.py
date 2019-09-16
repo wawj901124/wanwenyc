@@ -36,19 +36,22 @@ class  ClickAndBackView(View):  #继承View
         clickandback_all = ClickAndBack.objects.all().order_by("-id")
         clickandback_form = ClickAndBackForm(request.POST)  # 实例化ClickAndBackForm()
         clickandback = ClickAndBack.objects.get(id=int(clickandback_id))  # 获取用例
-
+        depend_case_id = request.POST.get("depend_case")
+        print("de:%s" % depend_case_id)
         if clickandback_form.is_valid():  # is_valid()判断是否有错
+
 
             clickandback_form.save(commit=True)  # 将信息保存到数据库中
 
             zj = ClickAndBack.objects.all().order_by('-add_time')[:1][0]  # 根据添加时间查询最新的
             user = User.objects.get(username=username)
             zj.write_user_id = user.id
+            # zj.depend_case_id = depend_case_id
             zj.save()
 
             clickandbackid = zj.id
             clickandbackadd = ClickAndBack.objects.get(id=int(clickandbackid))  # 获取用例
-            return render(request, "clickandback.html", {
+            return render(request, "clickAndBack.html", {
                 "clickandback": clickandbackadd,
                 "clickandback_all": clickandback_all,
                 "sumsg":u"添加测试用例---【{}】---成功,请继续添加".format(clickandbackadd.test_case_title),

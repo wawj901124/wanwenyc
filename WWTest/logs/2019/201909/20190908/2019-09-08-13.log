@@ -1,0 +1,19 @@
+Time:2019-09-08 13:50:58,849; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-08 13:50:58.847876 
+Time:2019-09-08 13:50:58,851; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190908135058 
+Time:2019-09-08 13:50:58,852; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-08 13:50:58.852864 
+Time:2019-09-08 13:50:58,854; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190908135058 
+Time:2019-09-08 13:50:58,855; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-08 13:50:58.855857 
+Time:2019-09-08 13:50:58,857; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190908135058 
+Time:2019-09-08 13:50:58,858; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-08 13:50:58.858848 
+Time:2019-09-08 13:50:58,860; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190908135058 
+Time:2019-09-08 13:50:58,862; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-08 13:50:58.861841 
+Time:2019-09-08 13:50:58,863; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190908135058 
+Time:2019-09-08 13:50:58,873; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Running the tests... 
+Time:2019-09-08 13:50:58,875; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-08 13:50:58.875803 
+Time:2019-09-08 13:50:58,877; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190908135058 
+Time:2019-09-08 13:50:58,879; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-08 13:50:58.878796 
+Time:2019-09-08 13:50:58,880; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-08 13:50:58,882; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\PycharmProjects\wanwenyc/media 
+Time:2019-09-08 13:50:58,883; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\PycharmProjects\wanwenyc/media/report 
+Time:2019-09-08 13:50:58,885; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\PycharmProjects\wanwenyc/media/report/201909 
+Time:2019-09-08 13:50:58,887; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:The report path:D:\PycharmProjects\wanwenyc/media/report/201909/20190908135058_report.html 
